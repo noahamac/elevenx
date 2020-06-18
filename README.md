@@ -8,7 +8,7 @@ Navigate to: `https://{YourLookerInstance}/marketplace/installed`
 Point to this Repo:
 > Git Repository URL: `git://github.com/noahamac/elevenx/`
 
-> Git Commit SHA: `3063fcad6345786733a8a487dc6e521e4f70d866`
+> Git Commit SHA: `58b20e19ce630f4ec200c829dcdfffdb4a7539ec`
 
 ### Usage
 
