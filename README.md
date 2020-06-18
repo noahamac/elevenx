@@ -1,9 +1,5 @@
 # ElevenX Visualization
 
-If you set the gauge value to 11, and move your cursor, **Gauge Intensifies**
-
-<img src="https://github.com/noahamac/elevenx/blob/master/at_eleven.gif" width="33%">
-
 ### Installation 
 Navigate to: `https://{YourLookerInstance}/marketplace/installed`
 
@@ -12,7 +8,13 @@ Navigate to: `https://{YourLookerInstance}/marketplace/installed`
 Point to this Repo:
 > Git Repository URL: `git://github.com/noahamac/elevenx/`
 
-> Git Commit SHA: `a770d25ffe9380f3ce351f77aec8e019332afdee`
+> Git Commit SHA: `3063fcad6345786733a8a487dc6e521e4f70d866`
+
+### Usage
+
+Manipulate the gauge value in the Visualization config pane. If you set the gauge value to 11, and move your cursor, **Gauge Intensifies**
+
+<img src="https://github.com/noahamac/elevenx/blob/master/at_eleven.gif" width="33%">
 
 ### What if I find an error? Suggestions for improvements?
 Raise an issue or start a PR :smile: 
