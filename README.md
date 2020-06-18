@@ -1,10 +1,18 @@
 # ElevenX Visualization
 
-<img src="https://github.com/noahamac/elevenx/blob/master/b4_eleven.png" width="33%"> 
-
 If you set the gauge value to 11, and move your cursor, **Gauge Intensifies**
 
 <img src="https://github.com/noahamac/elevenx/blob/master/at_eleven.gif" width="33%">
+
+### Installation 
+Navigate to: `https://{YourLookerInstance}/marketplace/installed`
+
+<img src="https://github.com/noahamac/viz-inspector/blob/master/install.png">
+
+Point to this Repo:
+> Git Repository URL: `git://github.com/noahamac/elevenx/`
+
+> Git Commit SHA: `a770d25ffe9380f3ce351f77aec8e019332afdee`
 
 ### What if I find an error? Suggestions for improvements?
 Raise an issue or start a PR :smile: 
