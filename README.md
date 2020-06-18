@@ -12,9 +12,14 @@ Point to this Repo:
 
 ### Usage
 
-Manipulate the gauge value in the Visualization config pane. If you set the gauge value to 11, and move your cursor, **Gauge Intensifies**
+Manipulate the gauge value in the Visualization config pane or by adding a measure-like value between 0 and 1. If you set the gauge value to 11, and move your cursor, **Gauge Intensifies**
 
 <img src="https://github.com/noahamac/elevenx/blob/master/at_eleven.gif" width="33%">
+
+The image below shows an example query that would allow this viz to work as an actual gauge viz. The measure is hidden, and a table calc transforms the measure to a decimal value between 0 and 1. At 1, or 100%, the 11x gauge will be maxed out.
+
+<img src="https://github.com/noahamac/elevenx/blob/master/Screen%20Shot%202020-06-18%20at%2010.56.23%20AM.png" width="33%">
+
 
 ### What if I find an error? Suggestions for improvements?
 Raise an issue or start a PR :smile: 
