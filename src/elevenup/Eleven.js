@@ -57,11 +57,12 @@ const drawEleven = (props) => {
   .attr("stroke-width", "4px");
 
   let spin_radius = 0.1*Math.min(props.width, props.height);
+  var sp_value = props.chunk.value.value > 1 ? props.value : Math.round(props.chunk.value.value * 11);
   svg.append("line")
-  .attr("x1", function(d) {return `${spin_radius * Math.cos(-4*Math.PI/3+(0.48*props.value))}`})
-  .attr("y1", function(d) {return `${spin_radius * Math.sin(-4*Math.PI/3+(0.48*props.value))}`})
-  .attr("x2", function(d) {return `${spin_radius * 3 * Math.cos(-4*Math.PI/3+(0.48*props.value))}`})
-  .attr("y2", function(d) {return `${spin_radius * 3 * Math.sin(-4*Math.PI/3+(0.48*props.value))}`})
+  .attr("x1", function(d) {return `${spin_radius * Math.cos(-4*Math.PI/3+(0.48*sp_value))}`})
+  .attr("y1", function(d) {return `${spin_radius * Math.sin(-4*Math.PI/3+(0.48*sp_value))}`})
+  .attr("x2", function(d) {return `${spin_radius * 3 * Math.cos(-4*Math.PI/3+(0.48*sp_value))}`})
+  .attr("y2", function(d) {return `${spin_radius * 3 * Math.sin(-4*Math.PI/3+(0.48*sp_value))}`})
   .attr("fill", "#a69840")
   .attr("stroke", "#282828")
   .attr("stroke-width", "8px");

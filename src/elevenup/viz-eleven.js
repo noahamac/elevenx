@@ -43,7 +43,8 @@ looker.plugins.visualizations.add({
 
         // process data and return a formatted chunk
       	let chunk;
-      	// chunk = processData(data, queryResponse, config, this);
+		chunk = processData(data, queryResponse, config, this);
+		config.chunk = chunk;
       	// console.log('chunk', chunk)
       	// Finally update the state with our new data
     		this.chart = ReactDOM.render(
