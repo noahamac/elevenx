@@ -1,5 +1,10 @@
 # ElevenX Visualization
 
+<img src="https://github.com/noahamac/elevenx/blob/master/b4_eleven.png"> 
+
+If you set the gauge value to 11, and move your cursor, **Gauge Intensifies**
+<img src="https://github.com/noahamac/elevenx/blob/master/at_eleven.gif">
+
 ### What if I find an error? Suggestions for improvements?
 Raise an issue or start a PR :smile: 
 
