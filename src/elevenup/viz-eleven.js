@@ -9,7 +9,7 @@ function processData(data, queryResponse, config, viz) {
 	meas = queryResponse['fields']['measure_like'];
 	var chunk = {
 		label: dims.length === 0 ? null : data[0][dims[0]['name']],
-		value: meas.length === 0 ? null : data[0][meas[0]['name']]
+		value: meas.length === 0 ? 2 : data[0][meas[0]['name']]
 	}
   return chunk;
 }
