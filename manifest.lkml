@@ -1,4 +1,4 @@
-project_name: "viz-aster-marketplace"
+project_name: "viz-elevenx-marketplace"
 
 constant: VIS_LABEL {
   value: "ElevenX"
