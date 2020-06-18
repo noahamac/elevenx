@@ -8,8 +8,8 @@ function processData(data, queryResponse, config, viz) {
 	dims = queryResponse['fields']['dimension_like'];
 	meas = queryResponse['fields']['measure_like'];
 	var chunk = {
-		label: dims === undefined ? null : data[0][dims[0]['name']],
-		value: meas === undefined ? null : data[0][meas[0]['name']]
+		label: dims.length === 0 ? null : data[0][dims[0]['name']],
+		value: meas.length === 0 ? null : data[0][meas[0]['name']]
 	}
   return chunk;
 }
